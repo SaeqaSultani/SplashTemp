@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/overlay_light_90"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <yanzhikai.textpath.AsyncTextPathView
+        android:id="@+id/atpv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/spacing_large"
+        app:duration="8000"
+        app:paintStrokeColor="@android:color/holo_orange_light"
+        app:pathStrokeColor="@android:color/holo_orange_light"
+        app:showPainter="true"
+        app:text="AsoodaOwar"
+        app:textInCenter="true"
+        app:textSize="55sp" />
+
+
+
+    <yanzhikai.textpath.AsyncTextPathView
+        android:id="@+id/atpv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/spacing_large"
+        app:duration="8000"
+        app:paintStrokeColor="@color/colorAccent"
+        app:pathStrokeColor="@color/colorAccent"
+        app:showPainter="true"
+        app:text="AsoodaOwar"
+        app:textInCenter="true"
+        app:textSize="55sp" />
+
+    <yanzhikai.textpath.SyncTextPathView
+        android:id="@+id/stpv_wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/spacing_large"
+        app:duration="8000"
+        app:paintStrokeColor="@android:color/holo_blue_light"
+        app:pathStrokeColor="@android:color/holo_blue_light"
+        app:showPainter="true"
+        app:showPainterActually="true"
+        app:text="AsoodaOwar"
+        app:textInCenter="true"
+        app:textSize="55sp"
+        />
+
+    <yanzhikai.textpath.SyncTextPathView
+        android:id="@+id/stpv_fortune"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/spacing_large"
+        app:duration="8000"
+        app:paintStrokeColor="@android:color/background_dark"
+        app:pathStrokeColor="@android:color/holo_red_dark"
+        app:showPainter="true"
+        app:text="AsoodaOwar"
+        app:textInCenter="true"
+        app:textSize="55sp" />
+
+
+
+</LinearLayout>

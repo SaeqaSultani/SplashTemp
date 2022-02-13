@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asoodaowar.ezSplashTemp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.AboutActivity"></activity>
+        <activity android:name=".activities.SplashScreenNineteenthActivity"></activity>
+        <activity android:name=".activities.SplashScreenTwentiethActivity" />
+        <activity android:name=".activities.SplashScreenEighteenthActivity" />
+        <activity android:name=".activities.SplashScreenSeventeenthActivity" />
+        <activity android:name=".activities.SplashScreenSixteenthActivity" />
+        <activity android:name=".activities.SplashScreenFifteenthActivity" />
+        <activity android:name=".activities.SplashScreenFourteenthActivity" />
+        <activity android:name=".activities.SplashScreenThirteenthActivity" />
+        <activity android:name=".activities.SplashScreenTwelfthActivity" />
+        <activity android:name=".activities.SplashScreenEleventhActivity" />
+        <activity android:name=".activities.SplashScreenTenthActivity" />
+        <activity android:name=".activities.SplashScreenNinthActivity" />
+        <activity android:name=".activities.SplashScreenEightActivity" />
+        <activity android:name=".activities.SplashScreenSeventhActivity" />
+        <activity android:name=".activities.SplashScreenSixthActivity" />
+        <activity android:name=".activities.SplashScreenFifthActivity" />
+        <activity android:name=".activities.SplashScreenFourthActivity" />
+        <activity android:name=".activities.SplashScreenThirdActivity" />
+        <activity android:name=".activities.SplashScreenSecondActivity" />
+        <activity android:name=".activities.SplashScreenFirstActivity" />
+        <activity android:name=".activities.MainActivity"></activity>
+        <activity android:name=".activities.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

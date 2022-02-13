@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/image_2"
+    tools:context=".activities.SplashScreenTwelfthActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/image_3"
+        android:scaleType="centerCrop"
+        />
+
+    <com.hanks.htextview.typer.TyperTextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:lineSpacingMultiplier="1.5"
+        android:text="Get the best coffee in the town"
+        android:textStyle="bold"
+        android:textSize="@dimen/spacing_mlarge"
+        app:charIncrease="3"
+        app:typerSpeed="150"/>
+
+</LinearLayout>

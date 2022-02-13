@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:match="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:background="#242424"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:ignore="NamespaceTypo">
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/shimmer_tv"
+        android:text="AsoodaOwar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#444"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:padding="@dimen/spacing_large"
+        />
+
+
+
+    <com.roger.match.library.MatchTextView
+        android:id="@+id/mMatchTextView"
+        android:layout_centerInParent="true"
+        match:text="AsoodaOwar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_large"/>
+
+    <com.hanks.htextview.rainbow.RainbowTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/spacing_large"
+        android:text="AsoodaOwar"
+        android:textSize="50sp"
+        app:colorSpace="150dp"
+        app:colorSpeed="4dp"/>
+
+</LinearLayout>

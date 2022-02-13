@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Splash Temp</string>
+    <string name="skip">skip</string>
+    <string name="got_it">GOT IT</string>
+    <string name="next">NEXT</string>
+   <string name="title_1">Splash Title #1</string>
+    <string name="title_2">Splash Title #2</string>
+    <string name="title_3">Splash Title #3</string>
+    <string name="title_4">Splash Title #4</string>
+    <string name="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+    ut laoreet dolore magna aliquam erat volutpat.</string>
+
+    <string name="about">About</string>
+
+    <string name="version">Version 1.0</string>
+    <string name="connect_us">Connect with us</string>
+    <string name="advertise_us">Advertise with us</string>
+    <string name="send_report">Send your reports quickly  and see theme clarify</string>
+    <string name="about_page">Asooda Owar is an IT company headquartered in
+        Herat – Afghanistan focuses on Designing and Developing Websites and Web Applications,
+        Developing Mobile Applications, Host and Domain Services, Graphic Design and Database Design.
+        Asooda Owar aims to make businesses simpler and better.</string>
+
+</resources>
